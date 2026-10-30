@@ -24,6 +24,5 @@ per-currency totals, budget creation and conflicts, user assignment/unassignment
 CSV previews, rejection of invalid batches, successful imports, and persistence.
 
 These checks do not exercise real company Google sign-in. Use Python 3.12 as
-specified for the project; the existing Python 3.9 environment reports a LibreSSL
-compatibility warning from urllib3. Do not suppress that warning as a substitute
-for updating the environment.
+specified for the project. The local environment has been upgraded to Python
+3.12.16 with OpenSSL; the earlier urllib3 LibreSSL warning is resolved.

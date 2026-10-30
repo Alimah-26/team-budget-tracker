@@ -7,6 +7,8 @@
 node_modules/
 venv/
 .venv/
+.python-runtime/
+venv-python39-backup/
 dist/
 __pycache__/
 *.py[cod]

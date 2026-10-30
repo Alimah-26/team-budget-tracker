@@ -89,6 +89,10 @@ tests. Those tests use temporary schemas and do not modify existing application
 tables. Browser workflow checks used mocked API and Google responses; they do not
 replace a real company-account acceptance test.
 
-Still to verify: the supplied finance CSV when available, the complete workflow
-with actual company users, and the Python 3.12 environment. The current Python 3.9
-environment produces a LibreSSL warning. No production deployment has been done.
+The local backend environment has been upgraded to Python 3.12.16; the standard
+backend suite passes, and the LibreSSL warning is resolved. `backend/.python-version`
+records the required Python series. The local interpreter and virtual environment
+are ignored by Git: recreate the environment on another computer using Python 3.12.
+
+Still to verify: the supplied finance CSV when available and the complete workflow
+with actual company users. No production deployment has been done.
