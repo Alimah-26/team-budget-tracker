@@ -1,0 +1,9 @@
+.login-page { display: grid; place-items: center; min-height: 100svh; padding: 24px; background: radial-gradient(ellipse at 50% 0, #eaf3ff, #f8faff 65%); }
+.login-card { width: 100%; max-width: 430px; padding: 45px 32px; background: #fff; border: 1px solid #dce7f6; border-radius: 14px; box-shadow: 0 16px 60px #2050900c; text-align: center; }
+.login-emblem { display: grid; place-items: center; width: 64px; height: 64px; margin: 0 auto 26px; border-radius: 15px; background: #edf4ff; color: #1765d1; }
+.login-card h1 { font-size: 27px; line-height: 1.25; margin-bottom: 14px; }
+.login-card p { font-size: 13px; color: #7c8da5; }
+.login-google { display: flex; justify-content: center; margin-top: 32px; }
+.login-google[inert] { opacity: .6; }
+.login-error { display: flex; align-items: flex-start; gap: 8px; padding: 12px; margin-top: 22px; border: 1px solid #f0ccd1; border-radius: 7px; color: #a83b48; background: #fff6f7; font-size: 12px; text-align: left; overflow-wrap: anywhere; }
+.login-error svg { flex-shrink: 0; }

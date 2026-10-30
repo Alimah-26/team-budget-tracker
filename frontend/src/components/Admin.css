@@ -1,0 +1,44 @@
+.admin-page { padding: 34px; max-width: 1480px; margin: 0 auto; }
+.admin-page h1 { font-size: 28px; }
+.admin-page h2, .admin-dialog h2 { font-size: 17px; line-height: 1.4; margin-bottom: 18px; }
+.admin-page p { font-size: 13px; line-height: 1.6; }
+.admin-heading { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px; margin-bottom: 26px; }
+.admin-panel { margin-bottom: 24px; padding: 24px; border: 1px solid var(--border); border-radius: 10px; background: #fff; }
+.admin-form-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 22px; }
+.admin-full { grid-column: 1 / -1; }
+.admin-page label { display: grid; gap: 8px; font-size: 12px; color: #60738f; font-weight: 550; }
+.admin-page input, .admin-page select { width: 100%; min-width: 0; }
+.admin-button { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 40px; padding: 9px 14px; border: 1px solid #d8e4f4; border-radius: 7px; color: #2764b7; background: #fff; font-size: 13px; font-weight: 550; text-decoration: none; }
+.admin-primary { color: #fff !important; background: var(--accent) !important; border-color: var(--accent) !important; }
+.admin-primary:hover:not(:disabled) { background: #0f55ba !important; }
+.admin-actions { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; margin-top: 16px; }
+.admin-full.admin-actions { margin-top: 0; }
+.admin-actions a { font-size: 12px; }
+.admin-table-scroll .admin-actions { margin-top: 0; }
+.admin-error { padding: 14px 16px; margin: 20px 0; border: 1px solid #f0ccd1; border-radius: 8px; color: #a83b48; background: #fff6f7; overflow-wrap: anywhere; }
+.admin-notice { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; padding: 14px 16px; margin: 20px 0 !important; border: 1px solid #d2e2f7; border-radius: 8px; background: #eff6ff; color: #285d9f; }
+.admin-hint { font-size: 12px !important; color: #7f90a8; margin-top: 16px; }
+.admin-table-scroll { overflow-x: auto; margin-top: 20px; }
+.admin-page table { width: 100%; border-collapse: collapse; font-size: 13px; }
+.admin-page th, .admin-page td { border-top: 1px solid #edf1f7; padding: 16px 14px; text-align: left; vertical-align: middle; }
+.admin-page th { font-size: 10px; text-transform: uppercase; letter-spacing: .6px; font-weight: 650; color: #75869e; background: #f8fafd; white-space: nowrap; }
+.admin-page td { color: #52657e; }
+.admin-page td strong { font-size: 13px; font-weight: 600; color: #324f75; }
+.admin-page td small { display: block; font-size: 11px; color: #8b9bb0; margin-top: 5px; }
+.admin-page td select { min-width: 155px; font-size: 12px; }
+.admin-page td button { min-height: 34px; font-size: 11px; }
+.admin-page .admin-checkbox { display: flex; gap: 8px; align-items: center; color: #7f8fa5; font-size: 12px; }
+.admin-checkbox input { width: auto; }
+.admin-count { display: inline-block; padding: 3px 7px; font-size: 10px; color: #6b8ab1; background: #edf4ff; border-radius: 5px; vertical-align: middle; margin-left: 8px; font-weight: 500; }
+.admin-dialog { max-width: 520px; width: calc(100vw - 32px); padding: 28px; border-radius: 12px; border: 1px solid var(--border); background: #fff; color: var(--text); font: inherit; box-shadow: 0 25px 100px #16396526; }
+.admin-dialog h2 { font-size: 21px; }
+.admin-dialog p { font-size: 14px; }
+.admin-dialog::backdrop { background: #142c4d55; backdrop-filter: blur(3px); }
+.admin-dialog .admin-danger { color: #fff; background: #ba3544; border-color: #ba3544; }
+.import-steps { list-style: none; display: flex; align-items: center; gap: 30px; margin: 0 0 25px; padding: 0; }
+.import-steps li { display: flex; align-items: center; gap: 9px; font-size: 12px; color: #8a9bb2; }
+.import-steps span { display: grid; place-items: center; width: 26px; height: 26px; border-radius: 50%; background: #e9eef5; color: #8a9bb2; font-weight: 600; font-size: 11px; }
+.import-steps .active { color: #346aa9; font-weight: 550; }
+.import-steps .active span { background: var(--accent); color: #fff; }
+@media (max-width: 1100px) { .admin-page { padding: 26px; } }
+@media (max-width: 700px) { .admin-page { padding: 24px 18px; } .admin-page h1 { font-size: 25px; } .admin-form-grid { grid-template-columns: 1fr; } .admin-panel { padding: 19px; } .admin-page th, .admin-page td { padding: 13px 10px; } .import-steps { gap: 19px; } .import-steps li { gap: 7px; font-size: 11px; } }

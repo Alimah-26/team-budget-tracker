@@ -1,0 +1,16 @@
+services:
+  db:
+    image: postgres:16
+    container_name: budget_tracker_db
+    restart: always
+    environment:
+      POSTGRES_USER: budget_user
+      POSTGRES_PASSWORD: budget_password
+      POSTGRES_DB: budget_tracker
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:

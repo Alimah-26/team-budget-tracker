@@ -1,0 +1,3 @@
+code,amount,currency,description,purpose
+TEST-IMPORT-001,1000.00,NGN,Sample training materials,CSV import testing only
+TEST-IMPORT-002,25.50,USD,Sample planning tool,CSV import testing only

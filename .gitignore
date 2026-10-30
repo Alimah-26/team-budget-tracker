@@ -1,0 +1,22 @@
+# Private local configuration (keep templates)
+.env
+.env.*
+!.env.example
+
+# Generated dependencies and build output
+node_modules/
+venv/
+.venv/
+dist/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+
+# Local database backups
+*.dump
+*.backup

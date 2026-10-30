@@ -1,0 +1,4 @@
+code,amount,currency,description,purpose
+TEST-ERROR-001,-100.00,NGN,Invalid negative amount,Validation testing only
+TEST-ERROR-002,25.50,USDD,Invalid currency format,Validation testing only
+TEST-ERROR-003,100.00,NGN,,
